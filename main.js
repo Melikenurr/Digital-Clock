@@ -17,7 +17,7 @@ function GetTime(){
    {
     document.getElementById("hour").innerText="0"+hour;
     }else{
-    document.getElementById("hour").innerText="0"+hour;
+    document.getElementById("hour").innerText=hour;
     }
 
    if(minute<10){
